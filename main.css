@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: "Maven Pro", sans-serif;
+}
+.pic {
+  width: 100%;
+}
+.oben,
+.unten {
+  display: grid;
+  grid-template: 1fr 1fr / repeat(8, 1fr);
+}
+
+.one {
+  grid-column: 1 / 2;
+  grid-row: 1fr / 2fr;
+}
